@@ -1,0 +1,17 @@
+.divContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.divLorem {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin: 20px;
+    border: 10px solid rgb(39, 22, 22);
+    margin: 50px;
+    padding: 50px;
+}
+.subtle {
+    margin-bottom :0;
+    padding-bottom :0;
+}

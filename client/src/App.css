@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+footer {
+  background-color:  rgb(39, 22, 22);
+  bottom: 0;
+  height: 8%;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  color: white;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(39, 22, 22);
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  list-style-type: none;
+}
+
+
+
