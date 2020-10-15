@@ -1,0 +1,108 @@
+.comment {
+    border: 3px solid rgb(39, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 50px 0;
+}
+
+h3 {
+    text-decoration: underline;
+}
+.comments {
+    margin: 20px;
+    padding: 20px;
+}
+
+ol {
+    background-color: rgb(39, 22, 22);
+    color: white; 
+    max-width: 650px; 
+}
+li {
+    display: flex;
+    justify-content: space-between;
+}
+.firstNameSpan {
+    flex: 10%
+}
+.lastNameSpan {
+    flex: 10%
+}
+/* .emailSpan {
+    flex: 20%
+} */
+.titleSpan {
+    flex: 20%
+}
+.textSpan {
+    flex: 40%;
+    max-width: 200px;
+}
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+}
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    /* font-size: 1.3rem; */
+    color: rgb(39, 22, 22);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+.form__label {
+
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: rgb(39, 22, 22);
+}
+.form__field:focus {
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    display: block;
+    transition: 0.2s;
+    color:rgb(39, 22, 22);
+}
+/* reset input */
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+.submitButton {
+    margin: 10px;
+    color: rgb(39, 22, 22) !important;
+    padding: 10px;
+    border: 4px solid rgb(39, 22, 22) !important;
+    border-radius: 20px;
+    display: inline-block;
+    transition: all 0.7s ease 0s;
+}
+.submitButton:hover {
+    color: white;
+    background-color: rgb(134, 133, 141) !important;
+    font-weight: 700;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.7s ease 0s;
+}
